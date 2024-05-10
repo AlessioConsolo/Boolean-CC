@@ -1,0 +1,230 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  border-radius: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 70px;
+}
+
+.title {
+  color: rgba(14, 207, 15, 255);
+}
+
+header img {
+  width: 200px;
+  display: block;
+  margin: 0 auto 15px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+nav {
+  background-color: rgba(14, 207, 15, 255);
+  display: flex;
+  justify-content: center;
+  padding: 13px 0;
+  margin-bottom: 25px;
+}
+
+nav input {
+  margin: 0 5px;
+}
+
+main {
+  text-align: left;
+  color: white;
+}
+
+.monopattino_title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.monopattino_title h2 {
+  margin-left: 5px;
+  font-size: 20px;
+}
+
+.monopattino_container p {
+  font-size: 13px;
+  font-weight: 100;
+  line-height: 20px;
+}
+
+.Gino {
+  background-color: rgba(245, 180, 83, 255);
+  height: 25px;
+  width: 33%;
+  margin-bottom: 25px;
+  border-radius: 5px;
+}
+
+.Mike {
+  background-color: rgba(30, 195, 30, 255);
+  height: 25px;
+  width: 53%;
+  margin-bottom: 25px;
+  border-radius: 5px;
+}
+
+.Fede {
+  background-color: rgba(190, 65, 65, 255);
+  height: 25px;
+  width: 13%;
+  border-radius: 5px;
+}
